@@ -1,6 +1,6 @@
 {
-	"name": "unisharp/laravel-ckeditor",
-	"description": "JavaScript WYSIWYG web text editor (for laravel).",
+	"name": "midium/laravel-ckeditor",
+	"description": "JavaScript WYSIWYG web text editor (for Laravel 5).",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript", "laravel"],
 	"homepage": "http://ckeditor.com",
@@ -9,6 +9,9 @@
 		{
 			"name":  "CKSource",
 			"homepage": "http://cksource.com"
+		},
+		{
+			"name":  "MiDiUm Software"
 		},
 		{
 			"name":  "UniSharp Ltd. (Composer Package Maintainer)",
@@ -23,7 +26,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Unisharp\\Ckeditor\\": "./"
+			"Midium\\Ckeditor\\": "./"
 		}
 	},
 	"require": {
