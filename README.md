@@ -16,7 +16,9 @@ Midium\Ckeditor\ServiceProvider::class,
 ```
 
 ### Publish the package's config and assets
+```
 php artisan vendor:publish --tag=ckedit
+```
 
 ## Usage
 
