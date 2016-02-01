@@ -1,6 +1,6 @@
 <?php
 
-namespace MiDiUm\Ckeditor;
+namespace Midium\Ckeditor;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
