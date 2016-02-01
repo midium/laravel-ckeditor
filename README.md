@@ -5,7 +5,7 @@ CKEditor Package
 ### Set up package
 
 ```
-composer require unisharp/laravel-ckeditor
+composer require midium/laravel-ckeditor
 php artisan vendor:publish --tag=ckeditor
 ```
 
@@ -13,7 +13,7 @@ php artisan vendor:publish --tag=ckeditor
 
 Edit config/app.php, add the following file to `Application Service Providers` section.
 ```
-Unisharp\Ckeditor\ServiceProvider::class,
+Midium\Ckeditor\ServiceProvider::class,
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Unisharp\Ckeditor\ServiceProvider::class,
 Default way (initiate by name or id) :
 
 ```javascript
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script src="/vendor/midium/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
     </script>
@@ -30,8 +30,8 @@ Default way (initiate by name or id) :
 Or if you want to initiate by jQuery selector :
 
 ```javascript
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-    <script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
+    <script src="/vendor/midium/laravel-ckeditor/ckeditor.js"></script>
+    <script src="/vendor/midium/laravel-ckeditor/adapters/jquery.js"></script>
     <script>
         $('textarea').ckeditor();
         // $('.textarea').ckeditor(); // if class is prefered.
