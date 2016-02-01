@@ -5,8 +5,7 @@ CKEditor Package
 ### Set up package
 
 ```
-composer require midium/laravel-ckeditor
-php artisan vendor:publish --tag=ckeditor
+composer require midium/laravel-ckeditor:dev-master
 ```
 
 ### Add ServiceProvider
@@ -30,8 +29,8 @@ Default way (initiate by name or id) :
 Or if you want to initiate by jQuery selector :
 
 ```javascript
-    <script src="/vendor/midium/laravel-ckeditor/ckeditor.js"></script>
     <script src="/vendor/midium/laravel-ckeditor/adapters/jquery.js"></script>
+    <script src="/vendor/midium/laravel-ckeditor/ckeditor.js"></script>
     <script>
         $('textarea').ckeditor();
         // $('.textarea').ckeditor(); // if class is prefered.
