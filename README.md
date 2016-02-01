@@ -15,6 +15,9 @@ Edit config/app.php, add the following file to `Application Service Providers` s
 Midium\Ckeditor\ServiceProvider::class,
 ```
 
+### Publish the package's config and assets
+php artisan vendor:publish --tag=ckedit
+
 ## Usage
 
 Default way (initiate by name or id) :
